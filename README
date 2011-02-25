@@ -1,0 +1,24 @@
+Headings ***
+Sub-headings --
+
+***Things to do***
+
+--Static objectives (must have)--
+
+--Changes & conceptual--
+
+***Things done***
+
+--Not tested (just written)--
+
+--Tested & working--
+
+//Notes below this//
+
+To get git to ignore emacs backups & autosaves
+just make file in project folder called ".gitignore"
+and add "*~" & "*#" on their own newline.
+also add ".gitignore" to ingore the file itself :)
+
+this is just a template I thought might work, no stress on filling this out unless everything turns out to be a mess :P, I know I won't bother too much, thinking that as long as the description at the top of each file is updated then its all chill.
+
