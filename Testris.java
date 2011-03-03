@@ -1,7 +1,18 @@
+/*
+  To test the output of any shape, swap for example  L2 in method call printShape("L2") with any legal shape code:
+
+consult the Tetrominii.cfg file for legal codes
+
+printKeys();
+*just displays what is read from keybinds.cfg
+*/
+
 class Testris {
     public static void main(String[] args){
 	printKeys();
-	printShape("L2");
+	printShape("L2"); //prints L-shaped piece in its 3'rd rotation
+	printShape("O0"); // O-shaped, first (and only) rotation
+	printShape("T3");
     }
 
     static void printKeys(){

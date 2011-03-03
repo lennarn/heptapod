@@ -22,3 +22,5 @@ also add ".gitignore" to ingore the file itself :)
 
 this is just a template I thought might work, no stress on filling this out unless everything turns out to be a mess :P, I know I won't bother too much, thinking that as long as the description at the top of each file is updated then its all chill.
 
+To remove deleted files trom git tracking:
+git ls-files --deleted | xargs git rm

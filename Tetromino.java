@@ -2,7 +2,7 @@ class Tetromino
 {
     Point displacementX;
     Point displacementY;
-	
+    
     boolean shape[][][];
     private enum Shape
     {
@@ -26,31 +26,25 @@ class Tetromino
 	    T2 17,
 	    T3 18;
     }
-
-    public Tetromino()
-    {
+    
+    public Tetromino(){
 	this.displacementX = 0;
 	this.displacementY = 0;
-
+	
 	this.shape = new boolean[18][4][4];
     }
-
-    public void draw(Board framebuf) // Draw to framebuffer
-    {
+    
+    public void draw(Board framebuf){
 	framebuf.insert(displacementX, displacementY, shape);
     }
 }
 
-class Shape extends Tetromino
-{
-    public Shape()
-    {
+class Shape extends Tetromino{
+    public Shape(){
 	super();
-
     }
 	
-    public Shape(int displacementX, int displacementY)
-    {
+    public Shape(int displacementX, int displacementY){
 	this.displacementX = displacementX;
 	this.displacementY = displacementY;
     }
